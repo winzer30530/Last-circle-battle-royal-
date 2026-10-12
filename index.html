@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101512">
+  <meta name="description" content="Last Circle — a third-person battle royale prototype.">
+  <title>Last Circle — Battle Royale</title>
+  <style>
+    :root{color-scheme:dark;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:#101512;color:#f4f5f1}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0,#283a2d 0,transparent 55%),#101512;display:grid;place-items:center;padding:24px}
+    main{width:min(760px,100%);border:1px solid #3b4b3e;border-radius:24px;padding:clamp(24px,6vw,56px);background:#151d18eF;box-shadow:0 24px 90px #0007}
+    .eyebrow{color:#b7d6a0;letter-spacing:.22em;font-size:.75rem;font-weight:800}h1{font-size:clamp(2.6rem,9vw,5.5rem);line-height:.92;letter-spacing:-.06em;margin:18px 0}p{color:#c5cec6;line-height:1.7}.pill{display:inline-block;border:1px solid #617a61;border-radius:99px;padding:7px 12px;color:#d7e7cf;font-size:.8rem}
+    .panel{margin-top:28px;padding:18px;border-radius:14px;background:#0c120e;border:1px solid #344638}code{color:#d5e9bd;overflow-wrap:anywhere}.small{font-size:.9rem;color:#aab7ac}
+  </style>
+</head>
+<body>
+  <main>
+    <span class="eyebrow">SURVIVE THE LAST CIRCLE</span>
+    <h1>LAST<br>CIRCLE</h1>
+    <span class="pill">UNITY · THIRD-PERSON BATTLE ROYALE</span>
+    <p>Welcome to the Last Circle deployment. This Vercel site is configured to serve a Unity WebGL build once it has been compiled and added to the <code>public/game/</code> folder.</p>
+    <section class="panel">
+      <strong>Browser build not installed yet</strong>
+      <p class="small">The current project is Unity source code. Vercel cannot compile a Unity project by itself. Export a WebGL build from Unity, copy its loader, .wasm, .data and framework files into <code>public/game/</code>, and replace this notice with the Unity WebGL loader to make the game playable.</p>
+    </section>
+  </main>
+</body>
+</html>
